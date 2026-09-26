@@ -1,0 +1,21 @@
+{
+  "name": "NEET PG AI Agent",
+  "short_name": "NEET PG AI",
+  "description": "AI-powered NEET PG preparation: dynamic MCQs, mock tests, voice mentor, daily coach, flashcards and planner.",
+  "start_url": "./#/home",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0f766e",
+  "theme_color": "#0f766e",
+  "orientation": "any",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ],
+  "shortcuts": [
+    { "name": "Start my day", "url": "./#/daily" },
+    { "name": "Practice", "url": "./#/practice" },
+    { "name": "AI Mentor", "url": "./#/mentor" }
+  ]
+}
